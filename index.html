@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina inicial</title>
     <link rel="stylesheet" href="visual.css">
+    <script src="estrutura.js"></script>
 </head>
 <body>
-    <BUtton type="button" onclick="document.getElementById('texto').style.color='red'">Um botão</BUtton>
-    <p id="texto" class="background_1">RECEBA!!!</p>
-    <BUtton type="button" onclick="document.getElementById('texto').style.color='blue'">Outro botão</BUtton>
+    <button type="button" onclick="troca_vermelho('texto')">Um botão</BUtton>
+    <p id="texto" class="size">RECEBA!!!</p>
+    <button type="button" onclick="troca_azul('texto')">Outro botão</BUtton>
 </body>
 </html>
